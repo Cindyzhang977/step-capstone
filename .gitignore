@@ -8,5 +8,5 @@ logs
 node_modules
 bower_components
 
-target/
+target
 .idea
