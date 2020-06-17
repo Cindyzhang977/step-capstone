@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div>
-      <button onclick={handleClick}>Fetch</button>
+      <button onClick={handleClick}>Fetch</button>
       <div>{text}</div>
     </div>
   );
