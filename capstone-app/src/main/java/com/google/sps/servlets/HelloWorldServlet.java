@@ -26,8 +26,9 @@ public class HelloWorldServlet extends HttpServlet {
 
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-    response.addHeader("Access-Control-Allow-Origin", "https://8000-4eb76769-d229-4fde-8cdf-c818ce4435c7.us-west1.cloudshell.dev");
-    response.setHeader("Access-Control-Allow-Methods", "GET");
+    response.addHeader("Access-Control-Allow-Origin", "http://localhost:8000");
+    response.addHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE");
+    response.addHeader("Access-Control-Allow-Headers", "Content-Type");
     Gson gson = new Gson();
     String json = gson.toJson("Hello World!");
     response.setContentType("application/json;");
