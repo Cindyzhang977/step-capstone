@@ -7,7 +7,7 @@ function App() {
 
   function handleClick() {
     console.log("clicked")
-    fetch('http://localhost:8080/helloworld')
+    fetch('http://localhost:8080/helloworld', { mode: 'cors' })
       .then(res => res.json())
       .then((json) => {
         console.log(json)
