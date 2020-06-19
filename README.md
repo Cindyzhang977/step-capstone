@@ -28,25 +28,21 @@ git clone https://github.com/Cindyzhang977/step-capstone.git
 ```
 
 Install nodejs
-
 ```bash
 sudo apt-get install -y nodejs
 ```
 
 Install maven
-
 ```bash
 sudo apt-get install maven
 ```
 
 Install Java
-
 ```bash
 sudo apt install openjdk-8-jdk
 ```
 
-`cd` to my-app folder (`step-capstone/capstone-app/src/main/webapp/my-app`) and set up npm project.
-
+`cd` to the my-app folder (`step-capstone/capstone-app/src/main/webapp/my-app`) and prepare the npm project for initial use.
 ```bash
 npm install
 ```
